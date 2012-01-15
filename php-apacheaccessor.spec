@@ -34,6 +34,7 @@ perl -pi -e "s|/lib\b|/%{_lib}|g" config.m4
 
 %build
 %serverbuild
+export CFLAGS="$CFLAGS `/usr/sbin/apxs -q CFLAGS`"
 
 phpize
 %configure2_5x --with-libdir=%{_lib} \
