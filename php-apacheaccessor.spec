@@ -38,7 +38,7 @@ export CPPFLAGS="`apr-1-config --cppflags`"
 
 phpize
 %configure2_5x --with-libdir=%{_lib} \
-    --with-apxs=/usr/sbin/apxs \
+    --with-apxs=/usr/bin/apxs \
     --with-aprconfig=/usr/bin/apr-1-config \
     --with-%{modname}=shared,%{_prefix}
 %make
