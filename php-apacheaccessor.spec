@@ -6,7 +6,7 @@
 Summary:	Simple API to Apache runtime configuration for PHP
 Name:		php-%{modname}
 Version:	0.5.1
-Release:	%mkrel 2
+Release:	3
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/ApacheAccessor/
