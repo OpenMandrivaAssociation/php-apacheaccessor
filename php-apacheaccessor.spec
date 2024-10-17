@@ -9,7 +9,7 @@ Version:	1.0.1
 Release:	3
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/ApacheAccessor/
+URL:		https://pecl.php.net/package/ApacheAccessor/
 Source0:	http://pecl.php.net/get/apacheaccessor-%{version}.tgz
 Source1:	B12_apacheaccessor.ini
 BuildRequires:	pkgconfig
